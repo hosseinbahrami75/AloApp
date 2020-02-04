@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/waterBlue</item>
+        <item name="colorPrimaryDark">@color/darkBackground</item>
+        <item name="colorAccent">@color/waterBlue</item>
+    </style>
+
+    <!--This is my custom theme (noActionBar)-->
+    <style name="AppTheme.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop"> @color/darkBackground</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Base.Widget.AppCompat.SearchView.MySearchView">
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/paleLavender</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/paleLavender</item>
+        <item name="android:tint">@color/paleLavender</item>
+        <item name="android:textColorHint">@color/Gray_5</item>
+        <item name="android:textColor">@color/paleLavender</item>
+        <item name="android:editTextColor">@color/paleLavender</item>
+    </style>
+
+    <!--My RatingBar Style-->
+    <style name="Base.Widget.AppCompat.RatingBar.Small.MyRatingBar">
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/paleLavender</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/paleLavender</item>
+    </style>
+
+</resources>

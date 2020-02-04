@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AloAppTest</string>
+    <string name="page1">Page1</string>
+    <string name="page2">Page2</string>
+    <string name="page3">Page3</string>
+    <string name="img_games_des">img_games_des</string>
+    <string name="img_movie_des">img_des222</string>
+    <string name="movie_name_text">MovieName</string>
+    <string name="img_description_des">img_des23</string>
+    <string name="img_genre_des">img_des_pic</string>
+    <string name="open_next_page">Open Next Page</string>
+    <string name="open_fake_page_3">Open Fake Page 3</string>
+    <string name="fake_page_3">Fake Page 3</string>
+    <string name="open_fake_page_2">Open Fake Page 2</string>
+</resources>
